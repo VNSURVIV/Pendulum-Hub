@@ -1,0 +1,24 @@
+--⚠️⚠️ Warning: this is a roblox gui script only for people over 18+ to use and also do not bring this dirty work to others, especially mothers and society.⚠️⚠️
+--Edit script: Roblox CreatorYT
+--Make script: 4-6 Developer in Gui
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "Execute successful", Description = "Let's enjoy script neko 18+"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Please Subscribe On Youtube", Description = "Pain Creator YT Find This Script & Share"},
+    {OutlineColor = Color3.fromRGB(5, 80, 30),Time = 5, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Tip Using", Description = "Always keep in mind that this is an imaginary script for fun and should not be abused to 18+ over"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
